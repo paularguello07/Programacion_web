@@ -27,12 +27,16 @@
            color:rgb(118, 217, 247);
            font-family:cursive;
            font-size: 26pt;
+           margin-left: 70px;
        }
        #tablita{
            text-align: right ;
        }
        #doc{
            width:122px ;
+       }
+       #message{
+           width: 171px;
        }
     </style>
 </head>
@@ -53,12 +57,16 @@
                 <th><input id="correo"></th>
             </tr>
             <tr>
-                <th><label for="tipo">Tipo de documento:</label></th>
+                <th><label for="tipo">Documento:</label></th>
                 <th><select name="tipo" id="tipo">
                     <option value="cc">CC</option>
                     <option value="ce">CE</option>
                     <option value="ti">TI</option>
                   </select> <input id="doc"> </th>
+            </tr>
+            <tr>
+                <th><label for="message">Mensaje</label></th>
+                <th><textarea id="message"></textarea></th>
             </tr>
         </table>
         
